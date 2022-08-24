@@ -1,0 +1,130 @@
+.recent .text {
+    padding: 30px;
+}
+
+.recent .category span {
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recent .category i {
+    font-size: 20px;
+    color: #bec7d8;
+}
+
+.recent p {
+    color: #72809d;
+}
+
+.recent .button {
+    border-top: 1px solid #efe8f3;
+    padding: 10px 30px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 763px) {
+
+    .recent .container h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .recent .container p {
+        font-size: 14px;
+    }
+
+    .recent .button {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .btn2 {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+
+    label {
+        font-size: 13px;
+        margin-right: 5px;
+        margin-left: 2px;
+    }
+
+    .recent h4 {
+        font-size: 14px;
+    }
+
+    .recent p {
+        font-size: 12px;
+    }
+
+    .recent .category span {
+        font-size: 12px;
+    }
+
+    .recent .category i {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 762px) {
+
+        .recent .container h1 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .recent .container p {
+            font-size: 12px;
+        }
+
+        .recent .button {
+            font-size: 9px;
+            padding: 5px 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .priceCard {
+            display: flex;
+            align-items: center;
+            margin-bottom: 7px;
+            margin-right: 41px;
+        }
+    
+        .btn2 {
+            font-size: 9px;
+            padding: 7px 7px;
+        }
+    
+        label {
+            font-size: 9px;
+            margin-right: 2px;
+            margin-left: 2px;
+        }
+    
+        .recent h4 {
+            font-size: 10px;
+            margin-bottom: 5px;
+        }
+    
+        .recent p {
+            font-size: 9px;
+        }
+    
+        .recent .category span {
+            font-size: 9px;
+            padding: 2px 2px;
+        }
+    
+        .recent .category i {
+            font-size: 12px;
+        }
+
+        .recent .text {
+            padding: 5px;
+        }
+}

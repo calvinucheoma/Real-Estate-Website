@@ -1,0 +1,255 @@
+.footerContact {
+    background-color: #27ae60;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footerContact h1 {
+    font-size: 40px;
+}
+
+footer {
+    background-color: #1d2636;
+    padding: 50px 0;
+    color: #fff;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: 6fr 2fr 2fr 1fr;
+    grid-gap: 20px;
+}
+
+footer img {
+    width: 150px;
+}
+
+footer h2 {
+    font-weight: 500;
+}
+
+footer p {
+    color: grey;
+    margin: 20px 0;
+}
+
+footer input {
+    background-color: #fff;
+    padding: 17px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer h3 {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+footer ul {
+    display: block;
+}
+
+footer ul li {
+    display: block;
+    color: grey;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+footer ul li:hover {
+    color: #fff;
+    transform: scaleY(1.08);
+    transition: 0.5s ease-in-out;
+}
+
+.legal{
+    text-align: center;
+    padding: 20px;
+    background-color: #1d2636;
+    color: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 763px) {
+
+    .footerContact h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .footerContact p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    footer h2 {
+        font-size: 25px;
+    }
+
+    .footerContact {
+        padding: 30px 0px;
+    }
+
+    .footerContact .send {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    footer h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .footerContact button {
+        font-size: 16px !important;
+        text-align: center !important;
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    footer img {
+        width: 170px;
+        margin-bottom: 30px;
+    }
+
+    footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer input {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    footer button {
+        font-size: 16px;
+        padding: 15px 15px;
+        cursor: pointer;
+    }
+
+    .legal {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 762px) {
+
+    .footerContact h1 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .footerContact p {
+        font-size: 12px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .footerContact {
+        padding: 30px 0px;
+    }
+
+    .footerContact .send {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 30px 0;
+    }
+
+    footer h2 {
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer h3 {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .footerContact button {
+        font-size: 12px !important;
+        text-align: center !important;
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    footer img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer input {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    footer button {
+        font-size: 11px;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+
+    .legal {
+        font-size: 10px;
+    }
+
+}

@@ -1,0 +1,46 @@
+.featured .box {
+    box-shadow: 0 0 20px 0 rgb(112 121 138 /18%);
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.featured .box:hover {
+    transform: scale(1.08);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.featured img {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 763px) {
+
+    .featured h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .featured p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 762px) {
+ 
+    .featured h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .featured p {
+        font-size: 12px;
+    }
+
+}

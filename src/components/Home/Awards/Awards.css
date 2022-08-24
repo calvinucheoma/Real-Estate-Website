@@ -1,0 +1,103 @@
+.awards {
+    background-color: #122947;
+    color: #fff;
+    text-align: center;
+}
+
+.awards .heading {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.awards .heading p {
+    color: #27ae60;
+}
+
+.awards .heading h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.awards .icon {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4% 50%;
+    font-size: 32px;
+    color: #fff;
+}
+
+.awards h1 {
+    font-size: 50px;
+}
+
+.awards p {
+    color: grey;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 763px) {
+
+    .awards .heading h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    
+    .awards .heading p {
+        font-size: 14px;
+    }
+
+    .awards .icon {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .awards h1 {
+        font-size: 40px;
+        margin: 40px 0;
+    }
+
+    .awards p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 762px) {
+
+    .awards .heading h1 {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+
+    .awards .heading p {
+        font-size: 12px;
+    }
+
+    .awards .icon {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+    }
+
+    .awards h1 {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    .awards p {
+        font-size: 12px;
+    }
+
+}
